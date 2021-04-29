@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/alexodorizzi/Desktop/Regensburg/UniRegensburg/Studium/6.SemesterMI-IW/PS_Interaktionsdesign/Coro-Helper/node_modules/.bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'client' ]
+2 info using npm@2.15.12
+3 info using node@v10.15.3
+4 warn invalid config loglevel="notice"
+5 verbose run-script [ 'preclient', 'client', 'postclient' ]
+6 info preclient coro-helper@1.0.0
+7 info client coro-helper@1.0.0
+8 verbose unsafe-perm in lifecycle true
+9 info coro-helper@1.0.0 Failed to exec client script
+10 verbose stack Error: coro-helper@1.0.0 client: `npm start --prefix client`
+10 verbose stack Exit status 1
+10 verbose stack     at EventEmitter.<anonymous> (/Users/alexodorizzi/Desktop/Regensburg/UniRegensburg/Studium/6.SemesterMI-IW/PS_Interaktionsdesign/Coro-Helper/node_modules/npm/lib/utils/lifecycle.js:217:16)
+10 verbose stack     at EventEmitter.emit (events.js:189:13)
+10 verbose stack     at ChildProcess.<anonymous> (/Users/alexodorizzi/Desktop/Regensburg/UniRegensburg/Studium/6.SemesterMI-IW/PS_Interaktionsdesign/Coro-Helper/node_modules/npm/lib/utils/spawn.js:24:14)
+10 verbose stack     at ChildProcess.emit (events.js:189:13)
+10 verbose stack     at maybeClose (internal/child_process.js:970:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+11 verbose pkgid coro-helper@1.0.0
+12 verbose cwd /Users/alexodorizzi/Desktop/Regensburg/UniRegensburg/Studium/6.SemesterMI-IW/PS_Interaktionsdesign/Coro-Helper
+13 error Darwin 19.5.0
+14 error argv "/usr/local/bin/node" "/Users/alexodorizzi/Desktop/Regensburg/UniRegensburg/Studium/6.SemesterMI-IW/PS_Interaktionsdesign/Coro-Helper/node_modules/.bin/npm" "run" "client"
+15 error node v10.15.3
+16 error npm  v2.15.12
+17 error code ELIFECYCLE
+18 error coro-helper@1.0.0 client: `npm start --prefix client`
+18 error Exit status 1
+19 error Failed at the coro-helper@1.0.0 client script 'npm start --prefix client'.
+19 error This is most likely a problem with the coro-helper package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     npm start --prefix client
+19 error You can get information on how to open an issue for this project with:
+19 error     npm bugs coro-helper
+19 error Or if that isn't available, you can get their info via:
+19 error
+19 error     npm owner ls coro-helper
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]

@@ -1,0 +1,32 @@
+{
+  "name": "coro-helper",
+  "version": "1.0.0",
+  "description": "App to bring those in need and helpers together",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusbink/Coro-Helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.1",
+    "mongoose": "^5.9.18"
+  },
+  "bugs": {
+    "url": "https://github.com/markusbink/Coro-Helper/issues"
+  },
+  "homepage": "https://github.com/markusbink/Coro-Helper#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

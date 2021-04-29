@@ -1,0 +1,80 @@
+/* Add custom font */
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+:root {
+    --light-grey: #f0f0f0;
+    --dark-grey: #a6a6a6;
+    --black: #071331;
+    --primary: #ff3b55;
+    --success: #21d528;
+    --error: #e02450;
+}
+
+a {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Circular Std Book"),
+        url("./fonts/CircularStd-Book.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Circular Std Medium"),
+        url("./fonts/CircularStd-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Circular Std Bold"),
+        url("./fonts/CircularStd-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Circular";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Circular Std Black"),
+        url("./fonts/CircularStd-Black.woff2") format("woff2");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+textarea,
+button {
+    margin: 0;
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--black);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
